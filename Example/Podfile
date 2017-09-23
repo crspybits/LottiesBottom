@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LottiesBottom_Example' do
+  pod 'LottiesBottom', :path => '../'
+
+  target 'LottiesBottom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

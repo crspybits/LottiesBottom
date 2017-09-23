@@ -1,0 +1,22 @@
+{
+  "name": "LottiesBottom",
+  "version": "0.1.0",
+  "summary": "A short description of LottiesBottom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/crspybits/LottiesBottom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "crspybits": "chris@SpasticMuffin.biz"
+  },
+  "source": {
+    "git": "https://github.com/crspybits/LottiesBottom.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LottiesBottom/Classes/**/*"
+}

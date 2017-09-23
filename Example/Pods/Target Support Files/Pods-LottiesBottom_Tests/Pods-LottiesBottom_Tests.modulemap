@@ -1,0 +1,6 @@
+framework module Pods_LottiesBottom_Tests {
+  umbrella header "Pods-LottiesBottom_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
