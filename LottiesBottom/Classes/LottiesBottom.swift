@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import Lottie
 
-class LottiesBottom : UIView {
+public class LottiesBottom : UIView {
     private weak var scrollView: UIScrollView!
     private var animationView:LOTAnimationView!
     
@@ -60,7 +60,7 @@ class LottiesBottom : UIView {
         self.center.x = parent.center.x
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(frame: CGRect.zero)
     }
     
@@ -68,7 +68,7 @@ class LottiesBottom : UIView {
         scrollView.removeObserver(self, forKeyPath: "contentOffset")
     }
     
-    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+    override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
         scrollViewDidScroll(scrollView)
     }
     
@@ -119,6 +119,12 @@ class LottiesBottom : UIView {
                 animationView.play(fromProgress: currProgress, toProgress: position, withCompletion: nil)
                 print("Playing backward to \(position)")
             }
+        }
+    }
+    
+    public func hide() {
+        if !animationView.isAnimationPlaying && animationView.animationProgress > 0 {
+            animationView.play(toProgress: 0, withCompletion: nil)
         }
     }
 }

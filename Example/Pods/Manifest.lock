@@ -1,5 +1,7 @@
 PODS:
-  - LottiesBottom (0.1.0)
+  - lottie-ios (2.1.3)
+  - LottiesBottom (0.1.0):
+    - lottie-ios (~> 2.1)
 
 DEPENDENCIES:
   - LottiesBottom (from `../`)
@@ -9,8 +11,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LottiesBottom: 032efb1ea7903836421ce299b89a6bc60505e7f8
+  lottie-ios: 8c150606598931621e927377f1426d2d3e99282d
+  LottiesBottom: 9ab9f55deca2f15a7cbbb5283c98716157684edd
 
-PODFILE CHECKSUM: ec4a3f28519b2e30e8812c0502c18cf7fe38c1d4
+PODFILE CHECKSUM: 2e1303bb003f5997e57ffe52e91b86ad93d00d35
 
 COCOAPODS: 1.3.1

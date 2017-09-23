@@ -14,6 +14,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		8320F8521F76F03A00759A12 /* C.json in Resources */ = {isa = PBXBuildFile; fileRef = 8320F84E1F76F02200759A12 /* C.json */; };
+		8320F8531F76F04E00759A12 /* D.json in Resources */ = {isa = PBXBuildFile; fileRef = 8320F84F1F76F02200759A12 /* D.json */; };
+		8320F8541F76F04E00759A12 /* N.json in Resources */ = {isa = PBXBuildFile; fileRef = 8320F8501F76F02200759A12 /* N.json */; };
+		8320F8551F76F04E00759A12 /* R.json in Resources */ = {isa = PBXBuildFile; fileRef = 8320F8511F76F02200759A12 /* R.json */; };
 		9EAA30E6ECFCBE1E74956FF7 /* Pods_LottiesBottom_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0C580EB612E17CC27AC008E /* Pods_LottiesBottom_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +35,7 @@
 		00488051DCFEAF0830AE1B80 /* Pods-LottiesBottom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiesBottom_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottiesBottom_Example/Pods-LottiesBottom_Example.release.xcconfig"; sourceTree = "<group>"; };
 		089A9E83791DC80EF80DF1BD /* Pods-LottiesBottom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiesBottom_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottiesBottom_Tests/Pods-LottiesBottom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0959A44304B09B7C0B44B246 /* Pods-LottiesBottom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiesBottom_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LottiesBottom_Tests/Pods-LottiesBottom_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		46294CC831B4A045BC88A6D0 /* LottiesBottom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LottiesBottom.podspec; path = ../LottiesBottom.podspec; sourceTree = "<group>"; };
+		46294CC831B4A045BC88A6D0 /* LottiesBottom.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LottiesBottom.podspec; path = ../LottiesBottom.podspec; sourceTree = "<group>"; };
 		4A90BD867579AB59190B5975 /* Pods-LottiesBottom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottiesBottom_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottiesBottom_Example/Pods-LottiesBottom_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4AC606C1C087A23BFE0C4F16 /* Pods_LottiesBottom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottiesBottom_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* LottiesBottom_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottiesBottom_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,8 +48,12 @@
 		607FACE51AFB9204008FA782 /* LottiesBottom_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottiesBottom_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8243BA0D570DD21EB73D3AC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C2E05EBEF3174F79D376213F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8243BA0D570DD21EB73D3AC9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8320F84E1F76F02200759A12 /* C.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = C.json; sourceTree = "<group>"; };
+		8320F84F1F76F02200759A12 /* D.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = D.json; sourceTree = "<group>"; };
+		8320F8501F76F02200759A12 /* N.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = N.json; sourceTree = "<group>"; };
+		8320F8511F76F02200759A12 /* R.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = R.json; sourceTree = "<group>"; };
+		C2E05EBEF3174F79D376213F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D0C580EB612E17CC27AC008E /* Pods_LottiesBottom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottiesBottom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +112,7 @@
 		607FACD21AFB9204008FA782 /* Example for LottiesBottom */ = {
 			isa = PBXGroup;
 			children = (
+				8320F84D1F76F02200759A12 /* Animations */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -149,6 +158,17 @@
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
+		};
+		8320F84D1F76F02200759A12 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				8320F84E1F76F02200759A12 /* C.json */,
+				8320F84F1F76F02200759A12 /* D.json */,
+				8320F8501F76F02200759A12 /* N.json */,
+				8320F8511F76F02200759A12 /* R.json */,
+			);
+			path = Animations;
+			sourceTree = SOURCE_ROOT;
 		};
 		D00289524BB35F097CDA0B06 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -215,10 +235,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BH68R29JBE;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = BH68R29JBE;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,7 +270,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8320F8551F76F04E00759A12 /* R.json in Resources */,
+				8320F8541F76F04E00759A12 /* N.json in Resources */,
+				8320F8531F76F04E00759A12 /* D.json in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				8320F8521F76F03A00759A12 /* C.json in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -272,10 +298,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LottiesBottom_Example/Pods-LottiesBottom_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LottiesBottom/LottiesBottom.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LottiesBottom.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -505,7 +533,9 @@
 			baseConfigurationReference = 4A90BD867579AB59190B5975 /* Pods-LottiesBottom_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH68R29JBE;
 				INFOPLIST_FILE = LottiesBottom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -519,7 +549,9 @@
 			baseConfigurationReference = 00488051DCFEAF0830AE1B80 /* Pods-LottiesBottom_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BH68R29JBE;
 				INFOPLIST_FILE = LottiesBottom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -532,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 089A9E83791DC80EF80DF1BD /* Pods-LottiesBottom_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BH68R29JBE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -552,6 +585,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0959A44304B09B7C0B44B246 /* Pods-LottiesBottom_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = BH68R29JBE;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
