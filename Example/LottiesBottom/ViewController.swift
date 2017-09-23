@@ -22,6 +22,9 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITableViewDelegat
         
         // The size, and the height in particular is fidly. You may have to tweak it to get it positioned to where you want relative to bottom of the scroll view.
         let size = CGSize(width: 200, height: 300)
+        
+        // The "N" reference below is for the file "N.json" in the bundle. See https://github.com/airbnb/lottie-ios/tree/master/Example/Tests for other examples
+        
         bottomAnimation = LottiesBottom(useLottieJSONFileWithName: "N", withSize: size, scrollView: tableView, scrollViewParent: view) {[unowned self] in
             print("Animation completed")
             self.bottomAnimation.hide()
