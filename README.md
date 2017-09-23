@@ -5,11 +5,19 @@
 [![License](https://img.shields.io/cocoapods/l/LottiesBottom.svg?style=flat)](http://cocoapods.org/pods/LottiesBottom)
 [![Platform](https://img.shields.io/cocoapods/p/LottiesBottom.svg?style=flat)](http://cocoapods.org/pods/LottiesBottom)
 
+## Description
+
+Uses https://github.com/airbnb/lottie-ios animations for a pull up from the bottom control for a UIScrollView. E.g., this is useful for a pull-up-from the bottom refresh control for a UITableView. And could just be a fun easter egg too! The Lottie animation .json file you use needs to be in the main bundle of your app.
+
+Demo video: https://youtu.be/PRYinZw3Ytc
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+I've tested this on iOS 11 so far with Xcode 9. It uses Swift.
 
 ## Installation
 
@@ -17,7 +25,7 @@ LottiesBottom is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'LottiesBottom'
+pod 'LottiesBottom', '~> 0.1'
 ```
 
 ## Author
