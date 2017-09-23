@@ -20,6 +20,8 @@ public class LottiesBottom : UIView {
         }
     }
     
+    public var animating = true
+    
     private let top:CGFloat = 100
     private var lastOffset:CGFloat = 0
     
@@ -69,7 +71,9 @@ public class LottiesBottom : UIView {
     }
     
     override public func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        scrollViewDidScroll(scrollView)
+        if animating {
+            scrollViewDidScroll(scrollView)
+        }
     }
     
     private func scrollViewDidScroll(_ scrollView: UIScrollView) {
@@ -123,8 +127,13 @@ public class LottiesBottom : UIView {
     }
     
     public func hide() {
-        if !animationView.isAnimationPlaying && animationView.animationProgress > 0 {
-            animationView.play(toProgress: 0, withCompletion: nil)
+        if animating {
+            if !animationView.isAnimationPlaying && animationView.animationProgress > 0 {
+                animationView.play(toProgress: 0, withCompletion: nil)
+            }
+        }
+        else {
+            animationView.play(fromProgress: 0, toProgress: 0, withCompletion: nil)
         }
     }
 }
