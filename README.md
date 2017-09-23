@@ -9,7 +9,7 @@
 
 Uses https://github.com/airbnb/lottie-ios animations for a pull up from the bottom control for a UIScrollView. E.g., this is useful for a pull-up-from the bottom refresh control for a UITableView. And could just be a fun easter egg too! The Lottie animation .json file you use needs to be in the main bundle of your app.
 
-Demo video: https://youtu.be/PRYinZw3Ytc
+[![Demo of LottieBottom](http://img.youtube.com/vi/PRYinZw3Ytc/0.jpg)](http://www.youtube.com/watch?v=PRYinZw3Ytc "Video Title")
 
 ## Example
 
