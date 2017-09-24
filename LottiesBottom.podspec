@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LottiesBottom'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Uses animations from Lottie (airbnb) for a pull up from the bottom control for a UIScrollView.'
 
   s.description      = <<-DESC
