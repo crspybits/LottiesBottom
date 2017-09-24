@@ -36,7 +36,9 @@ public class LottiesBottom : UIView {
     private var animationToFullSizeFinished = false
     
     // Adds LottiesBottom as a subview of the scroll view parent at the bottom center of the parent view, and animates it as the user drags up from the bottom.
-    public init(useLottieJSONFileWithName name: String, withSize size: CGSize, scrollView: UIScrollView, scrollViewParent parent: UIView, animationFullSize: (()->())? = nil) {
+    // `parent` is used so that we can position LottiesBottom at a fixed place at the bottom of the scroll view. It's assumed that the bottom of the scroll view is the same as the bottom of parent.
+    // `bottomYOffset` -- offset the vertical position beyond just the height of bottom of the parent and the height of the animation container.
+    public init(useLottieJSONFileWithName name: String, withSize size: CGSize, scrollView: UIScrollView, scrollViewParent parent: UIView, bottomYOffset:CGFloat = 0, animationFullSize: (()->())? = nil) {
         
         self.scrollView = scrollView
         self.animationFullSize = animationFullSize
@@ -47,11 +49,14 @@ public class LottiesBottom : UIView {
         animationView.frame = myFrame
         animationView.contentMode = .scaleAspectFill
         
-        myFrame.origin.y = scrollView.frame.maxY - size.height
+        myFrame.origin.y = parent.frame.maxY - size.height + bottomYOffset
         super.init(frame: myFrame)
         
         // So this animation is transparent to touches
         isUserInteractionEnabled = false
+        
+        // Debugging
+        // backgroundColor = UIColor.blue
         
         addSubview(animationView)
         setNeedsLayout()

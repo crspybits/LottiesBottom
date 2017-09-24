@@ -21,7 +21,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITableViewDelegat
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseId)
         
         // The size, and the height in particular is fidly. You may have to tweak it to get it positioned to where you want relative to bottom of the scroll view.
-        let size = CGSize(width: 200, height: 300)
+        let size = CGSize(width: 200, height: 85)
         
         // The "N" reference below is for the file "N.json" in the bundle. See https://github.com/airbnb/lottie-ios/tree/master/Example/Tests for other examples
         
@@ -29,7 +29,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITableViewDelegat
             print("Animation completed")
             self.bottomAnimation.hide()
         }
-        bottomAnimation.completionThreshold = 0.8
+        bottomAnimation.completionThreshold = 0.6
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -37,7 +37,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, UITableViewDelegat
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 100
+        return 20
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
