@@ -5,7 +5,7 @@ pod lib lint
 
 # 3) then push updated revision of pod to its repo
 
-git tag 0.1.0
+git tag 0.2.0
 git push --tags
 
 # 4) validate the pod, with downloading
