@@ -1,6 +1,6 @@
 LottiesBottom
 
-Version 0.4.0 (TBD)
+Version 0.4.0 (11/29/17)
 	* Fixed issue where sometimes the graphic wouldn't go away after animating in.
 	* Enabled rotation.
 	* Fixed issue where sometimes the graphic would appear on a pull down from the top of the scroll view.
