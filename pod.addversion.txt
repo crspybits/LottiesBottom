@@ -1,3 +1,12 @@
+# May have to go back and register as trunk owner (in case I push a roster pod)
+https://guides.cocoapods.org/making/getting-setup-with-trunk.html
+
+pod trunk register chris@spasticmuffin.biz 'Christopher Prince' --description='macbook air'
+
+Before trying this, you can try:
+	pod trunk me
+to see who you are.
+
 # 1) Update the .podspec with the new version number
 
 # 2) validate the pod, without downloading
@@ -10,8 +19,8 @@ git tag 0.5.0
 git push --tags
 
 # 4) validate the pod, with downloading
-pod spec lint
+pod spec lint --allow-warnings
 
 # 5) Then, to push my podspec
 
-pod trunk push LottiesBottom.podspec
+pod trunk push LottiesBottom.podspec --allow-warnings
