@@ -1,11 +1,11 @@
 # 1) Update the .podspec with the new version number
 
 # 2) validate the pod, without downloading
-pod lib lint
+pod lib lint --allow-warnings
 
 # 3) then push updated revision of pod to its repo
 
-git add -A && git commit -m "Version 0.4.0-- see VERSIONS.txt"
+git add -A && git commit -m "Version 0.5.0-- see VERSIONS.txt"
 git tag 0.4.0
 git push --tags
 
