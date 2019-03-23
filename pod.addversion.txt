@@ -14,8 +14,8 @@ pod lib lint --allow-warnings
 
 # 3) then push updated revision of pod to its repo
 
-git add -A && git commit -m "Version 0.5.0-- see VERSIONS.txt"
-git tag 0.5.0
+git add -A && git commit -m "Version 0.5.1-- see VERSIONS.txt"
+git tag 0.5.1
 git push --tags
 
 # 4) validate the pod, with downloading
